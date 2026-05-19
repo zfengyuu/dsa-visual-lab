@@ -1,11 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type {
-  DSALesson,
-  ProgressState,
-  VisualizationStep
-} from "@dsa-visual-lab/shared-types";
+import type { DSALesson, ProgressState, VisualizationStep } from "../lib/dsa";
 
 const storageKey = "dsa-visual-lab.progress";
 

@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
-import { getLessonById } from "@dsa-visual-lab/lessons";
-import { buildVisualizationSteps } from "@dsa-visual-lab/visualizer-core";
+import { buildVisualizationSteps, getLessonById } from "../../../lib/dsa";
 import { LessonClient } from "../../../components/lesson-client";
 
 export default async function LessonPage({

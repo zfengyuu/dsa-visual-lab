@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { lessons } from "@dsa-visual-lab/lessons";
+import { lessons } from "../../lib/dsa";
 
 export default function LessonsPage() {
   return (

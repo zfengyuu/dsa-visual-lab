@@ -9,9 +9,6 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@dsa-visual-lab/lessons": "workspace:*",
-    "@dsa-visual-lab/shared-types": "workspace:*",
-    "@dsa-visual-lab/visualizer-core": "workspace:*",
     "next": "^15.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

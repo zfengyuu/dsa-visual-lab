@@ -1,14 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { lessons } from "@dsa-visual-lab/lessons";
+import { lessons } from "../../lib/dsa";
 import { useEffect, useState } from "react";
-
-type ProgressState = {
-  completed: string[];
-  favorites: string[];
-  recentLessonId: string | null;
-};
+import type { ProgressState } from "../../lib/dsa";
 
 const emptyState: ProgressState = {
   completed: [],
