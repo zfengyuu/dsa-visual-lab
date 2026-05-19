@@ -1,0 +1,20 @@
+{
+  "name": "dsa-visual-lab",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.11.0",
+  "scripts": {
+    "dev": "pnpm --filter @dsa-visual-lab/web dev",
+    "build": "pnpm --filter @dsa-visual-lab/web build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "vitest run --passWithNoTests && pnpm -r --if-present test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}
